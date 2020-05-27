@@ -49,45 +49,7 @@ class _PDFScreenState extends State<PDFScreen> {
       appBar: AppBar(
           title: Text("CORONA COMIC",
               style: TextStyle(color: Colors.white,fontFamily: 'Girassol')),
-
         backgroundColor: Color(0xff243B55),
-
-//          flexibleSpace: FlexibleSpaceBar(
-//      stretchModes: <StretchMode>[
-//             StretchMode.zoomBackground,
-//              StretchMode.blurBackground,
-//              StretchMode.fadeTitle,
-//              ],
-//            centerTitle: true,
-//            title: const Text('National Center for Disease Control'),
-//            background: Stack(
-//                  fit: StackFit.expand,
-//                    children: [
-//                                Image.network(
-//                                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
-//                                fit: BoxFit.cover,
-//                              ),
-////        const DecoratedBox(
-////            decoration: BoxDecoration(
-////              gradient: LinearGradient(
-////                begin: Alignment(0.0, 0.5),
-////                end: Alignment(0.0, 0.0),
-////                colors: <Color>[
-////                  Color(0x60000000),
-////                  Color(0x00000000),
-////                ],
-////              ),
-////            )
-////        )
-//                    ]
-//    )
-//    ),
-
-
-
-
-
-
       ),
       body: Container(
         color: Color(0xff243B55),
